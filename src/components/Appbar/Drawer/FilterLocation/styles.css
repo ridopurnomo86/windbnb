@@ -1,0 +1,41 @@
+.drawer-filter-location-container {
+    width: 100%;
+}
+
+.drawer-location-button {
+    padding: 0.75rem 1.625rem;
+    border-radius: 1rem;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.drawer-location-text {
+    font-size: 9px;
+    font-weight: 800;
+    line-height: 11px;
+    margin-bottom: 4px;
+    color: #333333;
+}
+
+.drawer-place-location-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+.drawer-location-button[data-active="true"] {
+    border: 1px solid #333333;
+}
+
+.drawer-list-responsive {
+    display: block;
+}
+
+@media (max-width: 928px) {
+    .drawer-list-responsive {
+        display: none;
+    }
+} 

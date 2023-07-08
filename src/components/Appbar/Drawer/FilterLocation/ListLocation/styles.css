@@ -1,0 +1,17 @@
+.drawer-list-location-container {
+    margin-top: 2.5rem;
+}
+
+.info-location-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.info-location-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(79, 79, 79, 1);
+    margin-left: 8px;
+}
